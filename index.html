@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Sheikh Adeel - MERN Stack Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">My Portfolio</a>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="theme-toggle" id="theme-toggle">Mode</button>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- ...existing code... -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="greeting">Hi!</span>
+            <span class="name">I am Sheikh Adeel</span>
+            <span class="role">MERN Stack Developer</span>
+          </h1>
+          <p class="hero-description">
+            Passionate MERN Stack Developer dedicated to crafting beautiful,
+            functional, and user-friendly web applications. I transform ideas
+            into seamless digital experiences using MongoDB, Express, React, and
+            Node.js.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Visit My Works</a>
+            <button class="btn btn-secondary">Hire Me</button>
+          </div>
+        </div>
+        <!-- Remove the hero-image div -->
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+    <!-- ...existing code... -->
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="/Images/adeel.jpg" alt="About Adeel" />
+          </div>
+          <div class="about-text">
+            <p class="about-description">
+              I'm a passionate MERN Stack Developer with a strong interest in
+              building full-stack web applications that are fast, responsive,
+              and user-friendly. With hands-on experience in MongoDB,
+              Express.js, React.js, and Node.js, I specialize in transforming
+              ideas into functional digital solutions.
+            </p>
+            <p class="about-description">
+              I enjoy solving real-world problems through clean code, intuitive
+              UI, and modern web technologies. Whether it's creating dynamic
+              single-page applications or designing RESTful APIs, I focus on
+              writing maintainable and scalable code. I'm continuously learning
+              and growing in the world of web development to stay up to date
+              with the latest trends.
+            </p>
+            <p class="about-description">
+              Let’s build something great together!
+            </p>
+            <a
+              href="/Images/Sheikh_Adeel Resume.pdf"
+              class="btn btn-primary"
+              download="Sheikh-Adeel-CV.pdf"
+              style="margin-top: 2rem"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-subtitle">Technologies I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup and modern HTML standards</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="95%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Advanced styling, animations, and responsive design</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="90%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM manipulation, and modern JS frameworks</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="85%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <p>Component-based architecture and state management</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="60%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-node-js"></i>
+            </div>
+            <h3>Node.js</h3>
+            <p>Server-side JavaScript and backend development</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="85%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-php"></i>
+            </div>
+            <h3>PHP</h3>
+            <p>Basic server-side scripting for dynamic web development</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="60%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+  <div class="skill-icon">
+    <!-- MongoDB SVG logo with custom color -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 256 590">
+      <path fill="#4f46e5" d="M117.5 0s-6.6 59.4-83.3 117.2C13 128.9 4.5 148 1.2 164.5-8.1 209.4 10.6 267 39.8 307c33 45.8 66.5 84.3 68.3 135.2.9 26.3-.6 51.5-3.7 76.7-.6 5.1.6 10.5 3.2 15.1 5.4 9.3 17.8 22.2 22.8 23 5.6.9 11.6-10.6 15.4-17.5 2.4-4.5 5.5-9.9 5.9-15 .6-9.1-1.6-18.7-1.4-27.9 1.3-54.6 34.4-93.4 67.9-135.8 27.4-33.5 50.4-88.6 41.1-138.6-3.7-20.2-12.8-39.1-33.1-50.5C147.9 59.4 138.7 0 138.7 0h-21.2z"/>
+    </svg>
+  </div>
+  <h3>MongoDB</h3>
+  <p>NoSQL database for flexible and scalable data storage</p>
+  <div class="skill-progress">
+    <div class="progress-bar" data-width="80%"></div>
+  </div>
+</div>
+
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <!-- Tailwind CSS SVG Icon -->
+              <svg
+                width="36"
+                height="36"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M13.5 24.5C14.8333 20.5 17.8333 18.5 22.5 18.5C28.5 18.5 29.5 22.5 32.5 23.5C34.5 24.1667 36.1667 23.1667 37.5 20.5C36.1667 24.5 33.1667 26.5 28.5 26.5C22.5 26.5 21.5 22.5 18.5 21.5C16.5 20.8333 14.8333 21.8333 13.5 24.5Z"
+                    fill="#4f46e5"
+                  />
+                  <path
+                    d="M10.5 31.5C11.8333 27.5 14.8333 25.5 19.5 25.5C25.5 25.5 26.5 29.5 29.5 30.5C31.5 31.1667 33.1667 30.1667 34.5 27.5C33.1667 31.5 30.1667 33.5 25.5 33.5C19.5 33.5 18.5 29.5 15.5 28.5C13.5 27.8333 11.8333 28.8333 10.5 31.5Z"
+                    fill="#4f46e5"
+                  />
+                </g>
+              </svg>
+            </div>
+            <h3>Tailwind CSS</h3>
+            <p>Utility-first CSS framework for rapid UI development</p>
+
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="88%"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-figma"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>User interface design and user experience optimization</p>
+            <div class="skill-progress">
+              <div class="progress-bar" data-width="75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">My Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+        <div class="projects-filter">
+          <button class="filter-btn" data-filter="web">Web Apps</button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img
+                src="/Images/nf1.jpg"
+                alt="Netflix Clone Project"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="" class="project-link" title="View Live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://github.com/adeelsheikh-X/netflix-clone" class="project-link" title="View Code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Netflix Clone</h3>
+              <p>
+                A full-featured Netflix clone with EJS templating, user authentication, video banner, 'My List' functionality.
+              </p>
+              <div class="project-tags">
+                <span class="tag">EJS</span>
+                <span class="tag">Express</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img
+                src="/Images/sp-home.jpg"
+                alt="Spotify Clone Project"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://github.com/adeelsheikh-X/spotify" class="project-link" title="View Code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Spotify Clone</h3>
+              <p>
+               A modern, responsive Spotify clone featuring music UI, interactive song list, and smooth animations using HTML, CSS, and JavaScript.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="web">
+            <div class="project-image">
+              <img
+                src="/Images/wc1.jpg"
+                alt="Task Manager"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://github.com/adeelsheikh-X/WEBCHAT" class="project-link" title="View Code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Web Chat (Frontend)</h3>
+              <p>
+                A modern web chat application frontend with responsive design, user/admin dashboards, real-time chat UI, file upload, and glassmorphism styling.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React.js</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Tailwind</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="mobile">
+            <div class="project-image">
+              <img
+                src="/Images/HOME.jpg"
+                alt="Food Delivery App"
+              />
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="https://github.com/adeelsheikh-X/portfolio" class="project-link" title="View Code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Portfolio Using EJS</h3>
+              <p>
+                A dynamic portfolio website built with EJS showcasing projects, skills, and animations with light/dark mode support.
+              </p>
+              <div class="project-tags">
+                <span class="tag">EJS</span>
+                <span class="tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Let's work together on your next project
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Lahore, Punjab Pakistan</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <p>+92 309 4425706</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>adeelsheikh0036@gmail.com</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/sheikh-adeel" class="social-link" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/adeelsheikh-X" class="social-link" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+                <a href="https://wa.me/923094425706" class="social-link" title="WhatsApp" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i>
+                </a>
+              <a href="https://www.instagram.com/m_adeel_s" class="social-link" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2025 Sheikh Adeel. All rights reserved.</p>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
